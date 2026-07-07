@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Le Minh Khoa",
+      "email": "leminhkhoa@gmail.com",
+      "phone": "0987654321",
+      "avatar": "https://example.com/avatar1.jpg",
+      "dateOfBirth": "1999-03-18T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Pham Thi Thu Ha",
+      "email": "phamthuha@gmail.com",
+      "phone": "0912345678",
+      "avatar": "https://example.com/avatar2.jpg",
+      "dateOfBirth": "2000-08-22T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Tran Quoc Bao",
+      "email": "tranquocbao@gmail.com",
+      "phone": "0934567890",
+      "avatar": "https://example.com/avatar3.jpg",
+      "dateOfBirth": "1998-12-05T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Vo Ngoc Linh",
+      "email": "vongoclinh@gmail.com",
+      "phone": "0901122334",
+      "avatar": "https://example.com/avatar4.jpg",
+      "dateOfBirth": "2001-01-10T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Hoang Gia Huy",
+      "email": "hoanggiahuy@gmail.com",
+      "phone": "0977888999",
+      "avatar": "https://example.com/avatar5.jpg",
+      "dateOfBirth": "2002-06-30T00:00:00.000Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "khoa99",
+      "password": "Khoa@123",
+      "status": "active",
+      "lastLogin": "2026-07-01T09:15:20.000Z",
+      "createdAt": "2025-01-15T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "username": "thuha2000",
+      "password": "Ha@456",
+      "status": "inactive",
+      "lastLogin": "2026-06-28T18:45:10.000Z",
+      "createdAt": "2025-02-10T14:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "username": "quocbao",
+      "password": "Bao@789",
+      "status": "active",
+      "lastLogin": "2026-07-05T07:30:00.000Z",
+      "createdAt": "2025-03-05T09:10:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "username": "ngoclinh",
+      "password": "Linh@123",
+      "status": "locked",
+      "lastLogin": "2026-06-20T16:25:40.000Z",
+      "createdAt": "2025-04-12T11:45:00.000Z"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "username": "giahuy",
+      "password": "Huy@456",
+      "status": "active",
+      "lastLogin": "2026-07-06T21:05:15.000Z",
+      "createdAt": "2025-05-18T08:30:00.000Z"
+    }
+  ]
+}
