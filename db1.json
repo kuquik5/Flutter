@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Trần Lê Ngọc Huy",
+      "email": "huy@gmail.com",
+      "phone": "0987654321",
+      "avatar": "https://picsum.photos/200?1",
+      "dateOfBirth": "2004-09-12",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Minh Quân",
+      "email": "quan@gmail.com",
+      "phone": "0911222333",
+      "avatar": "https://picsum.photos/200?2",
+      "dateOfBirth": "2003-06-18",
+      "gender": "Male"
+    }
+  ],
+
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "huytran",
+      "password": "123456",
+      "role": "customer",
+      "status": "active",
+      "createdAt": "2026-07-07T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "username": "minhquan",
+      "password": "123456",
+      "role": "customer",
+      "status": "active",
+      "createdAt": "2026-07-07T09:30:00Z"
+    }
+  ],
+
+  "courts": [
+    {
+      "id": 1,
+      "name": "Sân A1",
+      "stadium": "Victory Badminton",
+      "address": "Quận Bình Thạnh, TP.HCM",
+      "pricePerHour": 120000,
+      "type": "Indoor",
+      "status": "available",
+      "image": "https://picsum.photos/400?1"
+    },
+    {
+      "id": 2,
+      "name": "Sân B2",
+      "stadium": "Hoàng Long Sport",
+      "address": "TP. Thủ Đức",
+      "pricePerHour": 150000,
+      "type": "VIP",
+      "status": "available",
+      "image": "https://picsum.photos/400?2"
+    }
+  ],
+
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 1,
+      "courtId": 1,
+      "bookingDate": "2026-07-10",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "totalPrice": 240000,
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "courtId": 2,
+      "bookingDate": "2026-07-11",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "totalPrice": 300000,
+      "status": "pending"
+    }
+  ],
+
+  "payments": [
+    {
+      "id": 1,
+      "bookingId": 1,
+      "method": "MoMo",
+      "amount": 240000,
+      "paymentDate": "2026-07-08T10:30:00Z",
+      "status": "paid"
+    },
+    {
+      "id": 2,
+      "bookingId": 2,
+      "method": "ZaloPay",
+      "amount": 300000,
+      "paymentDate": "2026-07-09T15:20:00Z",
+      "status": "paid"
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 1,
+      "courtId": 1,
+      "rating": 5,
+      "comment": "Sân đẹp, sạch sẽ, nhân viên nhiệt tình.",
+      "reviewDate": "2026-07-10"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "courtId": 2,
+      "rating": 4,
+      "comment": "Giá hợp lý, sân thoáng mát.",
+      "reviewDate": "2026-07-11"
+    }
+  ]
+}
